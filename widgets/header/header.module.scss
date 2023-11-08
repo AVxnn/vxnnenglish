@@ -1,0 +1,49 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 20px 86px;
+
+    .leftContainer {
+        max-width: 314px;
+        width: 100%;
+    }
+    .navigation {
+        display: flex;
+        gap: 86px;
+        list-style: none;
+        
+        .listItem {
+            padding: 9px 16px;
+            border-radius: 16px;
+            font-weight: 600;
+            color: #222;
+            font-size: 18px;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+                background-color: #e5e4ff;
+            }
+        }
+
+        .active {
+            background-color: #B8B7FF;
+            color: #504FE9;
+
+            &:hover {
+                background-color: #B8B7FF;
+            }
+        }
+    }
+    .rightContainer {
+        max-width: 314px;
+        display: flex;
+        height: 52px;
+        justify-content: flex-end;
+        width: 100%;
+    }
+}

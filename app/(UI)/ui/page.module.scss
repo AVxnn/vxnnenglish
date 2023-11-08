@@ -1,0 +1,29 @@
+@import "/styles/variables.scss";
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 160px);
+  grid-template-rows: repeat(8, 48px);
+  gap: 32px;
+
+  h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $b_main_default;
+  }
+}
+
+.gridInputs {
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  grid-template-rows: repeat(9, 48px);
+  gap: 32px;
+
+  h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $b_main_default;
+  }
+}

@@ -1,0 +1,44 @@
+
+.welcome {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .mainInfo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 86px;
+
+        .image {
+            width: 560px;
+            display: flex;
+            height: 560px;
+            flex: 1.2;
+            background-color: white;
+            border-radius: 16px;
+        }
+        .rightInfo {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 32px;
+            flex: 1;
+
+            .title {
+                text-align: center;
+                max-width: 420px;
+            }
+
+            .buttons {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+            }
+        }
+    }
+}

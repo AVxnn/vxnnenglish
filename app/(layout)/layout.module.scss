@@ -1,0 +1,24 @@
+
+
+.container {
+  display: flex;
+
+  .rightCont {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-left: 260px;
+
+    .containerInfo {
+      width: calc(100% - 64px);
+      margin: 32px 32px 0 32px;
+      display: flex;
+      justify-content: center;
+
+      .info {
+        width: 100%;
+        max-width: 1280px;
+      }
+    }
+  }
+}

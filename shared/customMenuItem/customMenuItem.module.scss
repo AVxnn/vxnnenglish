@@ -1,0 +1,66 @@
+.link {
+  width: 100%;
+}
+
+.customButton {
+  padding: 9px 16px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3ABEF6;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.05s ease-in-out;
+  box-shadow: 0 2px 0 #e0e0e0;
+  border: 2px solid #e0e0e0;
+  width: 100%;
+  align-items: flex-start;
+
+  .container {
+    flex-direction: row;
+  }
+
+  p {
+      margin-top: 3px;
+  }
+
+  &:hover {
+      background-color: #cccccc;
+      border: 2px solid #acacac;
+      box-shadow: 0 2px 0 #acacac;
+  }
+
+  &:active {
+      top: 2px;
+      box-shadow: none;
+  }
+}
+
+.green {
+  color: #FFFFFF;
+  box-shadow: 0 2px 0 #5ADB2D;
+  border: 2px solid #5ADB2D;
+  background-color: #63EE32;
+  
+  &:hover {
+      background-color: #5ad62d;
+      border: 2px solid #4aad25;
+      box-shadow: 0 2px 0 #4aad25;
+  }
+
+  &:active {
+      top: 2px;
+      box-shadow: none;
+  }
+}
+
+.medium {
+  font-size: 16px; 
+  padding: 12px 16px; 
+}
