@@ -40,6 +40,40 @@
     }
 }
 
+.error {
+    color: $t_black_title;
+    background-color: $c_error_bg;
+    border: 2px solid $c_error;
+    
+    &:hover {
+        background-color: $c_error_bg;
+        border: 2px solid $c_error;
+    }
+
+    &:focus {
+        outline: none;
+        background-color: $c_error_bg;
+        border: 2px solid $c_error;
+    }
+}
+
+.errorText {
+    position: absolute;
+    color: $c_error;
+    display: flex;
+    gap: 6px;
+    margin-top: 4px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 16px;
+
+    svg {
+        width: 12px;
+        height: 12px;
+    }
+}
+
 .width {
     width: 100%;
 }

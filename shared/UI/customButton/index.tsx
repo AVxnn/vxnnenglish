@@ -1,16 +1,6 @@
 import React from "react";
 import styles from "./customButton.module.scss";
 import Link from "next/link";
-
-interface CustomButton {
-  link?: string;
-  type?: "green" | "blue" | "red" | "white";
-  size?: "small" | "medium" | "big";
-  width?: boolean;
-  callback?: Function;
-  children: React.ReactNode;
-}
-
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   typeButton: "default" | "secondary";
   size: "s" | "m";

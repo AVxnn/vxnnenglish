@@ -32,6 +32,10 @@ button {
   --c_main_white: #FFFFFF;
   --c_main_white_bg: #F8F8F8;
 
+  
+  --c_error: #EF3939;
+  --c_error_bg: #FFE8E8;
+
   --s_main_shadow: 0px 0px 20px 1px rgba(34, 60, 80, 0.15);
 
   
