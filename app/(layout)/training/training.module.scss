@@ -1,0 +1,18 @@
+
+.training {
+  display: flex;
+  gap: 48px;
+
+  .left {
+    max-width: 874px;
+    width: 100%;
+
+    .list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+
+      margin-top: 12px;
+    }
+  }
+}
