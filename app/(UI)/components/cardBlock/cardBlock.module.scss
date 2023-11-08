@@ -1,0 +1,15 @@
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+
+  .container {
+    max-width: 1520px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+}
